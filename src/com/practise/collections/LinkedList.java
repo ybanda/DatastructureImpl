@@ -108,7 +108,7 @@ public class LinkedList<T>
 
 		sl.traverse();
 		
-		sl.deleteNode(54);
+		//sl.deleteNode(54);
 		
 		System.out.println("Traverse");
 		
