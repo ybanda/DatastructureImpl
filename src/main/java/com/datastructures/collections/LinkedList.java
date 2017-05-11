@@ -157,7 +157,6 @@ class Node<T> implements Comparable<T>
 	}
 
 
-	@Override
 	public int compareTo(T arg0) {
 		if(arg0==element)
 			return 0;
