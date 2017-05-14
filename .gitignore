@@ -3,6 +3,7 @@
 /.gradle/
 # Compiled class file
 *.class
+/.externalToolBuilders/
 
 # Log file
 *.log
