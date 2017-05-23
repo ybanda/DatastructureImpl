@@ -1,7 +1,12 @@
 # DatastructureImpl
 
 ## Data Structures 
-This project contains the implementations for Collections & Sorting like LL ,Double LL ,Stack,Queue, BinarySearch , Graph,HashTable,etc..
+This project contains the implementations for Collections & Sorting like LL ,
+Double LL ,
+Stack,Queue, 
+BinarySearch , 
+Graph,
+HashTable,etc..
 
 ## Collections
 
