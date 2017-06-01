@@ -22,7 +22,8 @@ public class DataTypes {
 		float floatValue =1;
 		double doubelValue = 1;
 		boolean boolValue = false;
-		
+		long x = 10;
+		int y=2;
 		System.out.println(" Character ="+character+
 				"\n ByeValue = "+byteValue+
 				"\n Short Value="+integer+
@@ -31,6 +32,9 @@ public class DataTypes {
 				"\n Float Value ="+floatValue+
 				"\n Double Value ="+doubelValue+
 				"\n Boolean Value ="+boolValue);
+		y*=x;
+		boolean z=x==10;
+		System.out.println(y+"\n"+z);
 	}
 
 }
