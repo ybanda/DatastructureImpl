@@ -13,9 +13,12 @@ public class Variables {
 	 * @param args
 	 */
 	
+	
 	private int instanceVar1 =1,instanceVar2=2;
+	
 	public static void main(String[] args) {
 
+		
 		
 	}
 	
