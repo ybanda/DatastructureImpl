@@ -1,15 +1,19 @@
 # DatastructureImpl
 
-## Data Structures 
-This project contains the implementations for Collections & Sorting like LL ,
-Double LL ,
-Stack,Queue, 
-BinarySearch , 
-Graph,
-HashTable,etc..
+## Data Structures & Collections
+This project contains the implementations for Collections & Sorting like 
 
-## Collections
+- [x] Linked List 
+- [x] Double Linked List
+- [x] Stack
+- [x] Queue
+- [x] Binary Search 
+- [x] Graphs
+- [x] Hash Table
 
 ## OCAJP-8
 
-and also expanding on preparations examples for Oracle Certified Associate OCAJP -8
+- [x] Java Basics
+- [x] Java Data types
+- [x] Methods and Encapsulation
+
