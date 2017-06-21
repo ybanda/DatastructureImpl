@@ -17,7 +17,7 @@ public class StringMethodImpl {
 
 		String str1 = new String("Yashwanth");
 		String str2 = new String("Yashwanth");
-		String str3 = "Yashwanth  ";
+		String str3 = "Yashwanth";
 		String str4 = "Yashwanth";
 		String str5 = new String("Yashwanth");
 		char[] charName = new char[]{'Y','a','s','h','w','a','n','t','h'};
@@ -25,7 +25,7 @@ public class StringMethodImpl {
 		String str7 = null;
 		
 		System.out.println("str1 HasCode :: "+str1.hashCode());
-		str1 ="BYKR";
+		//str1 ="BYKR";
 		System.out.println("str1 HasCode :: "+str1.hashCode());
 		System.out.println("str2 HasCode :: "+str2.hashCode());
 		System.out.println("str3 HasCode :: "+str3.hashCode());
@@ -39,7 +39,8 @@ public class StringMethodImpl {
 		System.out.println("Str3Var == Str2Obj :: returns ::"+stringValueCompare(str3, str2));
 		System.out.println("Yashwanth"==str3);
 		System.out.println("str5Obj == Str6Obj :: returns ::"+stringValueCompare(str5,str6));
-		
+	
+		System.out.println("Str1 == str2 ?"+str1.equals(str4));
 		stringMethodOperations(str2, str3);
 	}
 	/**
@@ -70,4 +71,5 @@ public class StringMethodImpl {
 		
 	}
 
+	
 }
