@@ -42,6 +42,7 @@ public class StringMethodImpl {
 	
 		System.out.println("Str1 == str2 ?"+str1.equals(str4));
 		stringMethodOperations(str2, str3);
+		stringBufferClassOperations(str2);
 	}
 	/**
 	 * 
@@ -68,6 +69,29 @@ public class StringMethodImpl {
 		System.out.println(val2.trim() +" val2-- Length "+val2.trim().length());
 		System.out.println("Replace a with r :: "+val2.replace('a', 'r') +":: Starts with :: Y ?"+val2.startsWith("Y")+
 				"\n Ends with h ?"+val2.endsWith("h"));
+		
+	}
+	
+	public static void stringBufferClassOperations(String str1){
+		// String Buffer is Thread Safe.
+		StringBuffer strBuff = new StringBuffer();
+		StringBuffer strBuff1 = new StringBuffer(str1);
+		StringBuffer strBuff2 = new StringBuffer(50);
+		System.out.println(strBuff +" Str 1 = "+strBuff1+":: Str 2 ="+strBuff2 +" Length :: "+strBuff2.capacity());
+		
+		StringBuilder strBuil = new StringBuilder();
+	
+		StringBuilder strBuil1 = new StringBuilder(str1);
+		strBuil1.setLength(12);
+		StringBuilder strBuil2 = new StringBuilder(50);
+		System.out.println(strBuil +" Str 1 = "+strBuil1+
+				":: Str 2 ="+strBuil2 +" Length :: "+strBuil2.capacity()
+				+"\t CHar at 1 ::"+strBuil1.charAt(1)+
+				"\t Index of Y ::"+strBuil1.indexOf("Y")
+				+"\t Substring ::"+strBuil1.substring(0,5)+
+				"\t Append ::"+strBuil1.append("Banda  "));
+		strBuil1.trimToSize();
+		System.out.println(strBuil1);
 		
 	}
 
