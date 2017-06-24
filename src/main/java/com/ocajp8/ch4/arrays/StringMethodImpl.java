@@ -43,6 +43,12 @@ public class StringMethodImpl {
 		System.out.println("Str1 == str2 ?"+str1.equals(str4));
 		stringMethodOperations(str2, str3);
 		stringBufferClassOperations(str2);
+		
+		String lang ="Java";
+		String nullValue = null;
+		System.out.println(nullValue);
+		nullValue +="C++"; 
+		System.out.println("Lang = "+lang +" :: Null appended :: "+nullValue);
 	}
 	/**
 	 * 
@@ -75,11 +81,14 @@ public class StringMethodImpl {
 	public static void stringBufferClassOperations(String str1){
 		// String Buffer is Thread Safe.
 		StringBuffer strBuff = new StringBuffer();
+		strBuff.append("Testing ");
+		strBuff.append(new String("Oracle"));
 		StringBuffer strBuff1 = new StringBuffer(str1);
 		StringBuffer strBuff2 = new StringBuffer(50);
 		System.out.println(strBuff +" Str 1 = "+strBuff1+":: Str 2 ="+strBuff2 +" Length :: "+strBuff2.capacity());
 		
 		StringBuilder strBuil = new StringBuilder();
+		
 	
 		StringBuilder strBuil1 = new StringBuilder(str1);
 		strBuil1.setLength(12);
