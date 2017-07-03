@@ -20,8 +20,82 @@ public class IfElseFlowControl {
 		//		nestedElseIfConstuct();
 		//		ternaryConstuct();
 		//		switchConstruct();
-		forLoopConstruct();
+		//		forLoopConstruct();
+		//		whileConstruct();
+		//		doWhileConstruct();
+			continueConstuct();
+		}
+	
+
+	private static void continueConstuct() {
+		
+		String[] languages ={"Java","C","C#","C++"};
+		for (String name :languages){
+			if(name.equals("C"))
+				continue;
+			System.out.println(name);
+		}
+		
+		block:{
+			int[] arr ={1,2,3};
+			for(int a :arr)
+				System.out.println(a);
+		}
+		outer:
+			for(int i=0;i<languages.length;i++)
+				System.out.println(languages[i]);
+		outer1:
+			for(String out:languages){
+				for(String inner :languages){
+					if(inner.equals("C#"))
+					{
+						System.out.println("Break::"+inner);
+						break outer1;
+					}	else{
+						System.out.println("Continue::"+inner);
+						continue outer1;
+					}
+					
+				}
+			}
+		
 	}
+
+
+	/**
+	 * 
+	 */
+	private static void doWhileConstruct() {
+		System.out.println("---Do- While -----");
+		int num =9;
+		boolean isDivisible =true;
+		do{
+			System.out.println("num::"+num);
+			if(num%7==0)
+				isDivisible=true;
+			--num;
+			}
+		while(!isDivisible);
+		
+	}
+
+
+	/**
+	 * 
+	 */
+	private static void whileConstruct() {
+
+		System.out.println("-----While -----");
+		int num =9;
+		boolean isDivisible =false;
+		while(!isDivisible){
+			System.out.println("num::"+num);
+			if(num%7==0)
+				isDivisible=true;
+			--num;
+			}
+	}
+
 
 	/**
 	 * 
@@ -61,7 +135,7 @@ public class IfElseFlowControl {
 		default:
 			System.out.println("default");
 		}
-		String day ="FRI";
+		String day ="MON";
 		switch(day){
 		case "SUN":
 		case "Tue":
