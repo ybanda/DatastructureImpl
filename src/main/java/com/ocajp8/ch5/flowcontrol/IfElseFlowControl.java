@@ -19,11 +19,11 @@ public class IfElseFlowControl {
 		//		ifElseFlowControl();
 		//		nestedElseIfConstuct();
 		//		ternaryConstuct();
-		//		switchConstruct();
+				switchConstruct();
 		//		forLoopConstruct();
 		//		whileConstruct();
 		//		doWhileConstruct();
-			continueConstuct();
+		//	continueConstuct();
 		}
 	
 
@@ -49,8 +49,10 @@ public class IfElseFlowControl {
 				for(String inner :languages){
 					if(inner.equals("C#"))
 					{
-						System.out.println("Break::"+inner);
-						break outer1;
+						do{
+						for(String out1:languages){
+							
+						}}while(true);
 					}	else{
 						System.out.println("Continue::"+inner);
 						continue outer1;
@@ -110,16 +112,21 @@ public class IfElseFlowControl {
 	}
 
 	/**
-	 * 
+	 * Does not accept long ,float , double
 	 */
 	private static void switchConstruct() {
 		int marks=10;	
-		final int result;
+		 final int result;
 		
 		result =111;
 
-		switch(marks){
+		switch(result){
 		
+		}
+		switch(marks){
+		default:
+			System.out.println("test");
+			break;
 		case 10:
 			System.out.println(10);
 			break;
@@ -132,8 +139,7 @@ public class IfElseFlowControl {
 		case 40:
 			System.out.println(40);
 			break;
-		default:
-			System.out.println("default");
+		
 		}
 		String day ="MON";
 		switch(day){
@@ -179,6 +185,7 @@ public class IfElseFlowControl {
 
 	}
 
+	
 	private static void ifElseFlowControl() {
 		String output =" ";
 		boolean isAllowed =false;
@@ -197,6 +204,9 @@ public class IfElseFlowControl {
 		else
 			System.out.println(isAllowed);
 		System.out.println("Output Obtained ::"+output);
+		
 	}
 
 }
+//1.b,2.c,3.e,4.b
+//5d,6d,7d,8a,9c,10b
