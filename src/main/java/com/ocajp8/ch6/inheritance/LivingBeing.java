@@ -21,6 +21,7 @@ public class LivingBeing implements Jumpable,Moveable {
 	public static void main(String[] args) {
 		LivingBeing lv = new LivingBeing();
 		lv.getMinDistance();
+		
 
 	}
 
@@ -35,5 +36,23 @@ public class LivingBeing implements Jumpable,Moveable {
 	public void getMinDistance() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public String getPosition() {
+		// TODO Auto-generated method stub
+		return " ";
+	}
+
+	
+	public String getPosition(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void returnDefault() {
+		// TODO Auto-generated method stub
+		Jumpable.super.returnDefault();
 	}
 }

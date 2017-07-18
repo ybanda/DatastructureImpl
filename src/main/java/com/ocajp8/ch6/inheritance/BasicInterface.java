@@ -10,7 +10,8 @@ import java.time.LocalDateTime;
  *
  */
 interface BasicInterface {
-	void basicAbstractMethod();
+	//void basicAbstractMethod();
+	abstract void basicAbstractMethod();
 	default void obtainStatus() {
 		System.out.println("BasicInterface :: Status = Accepted");
 	}
