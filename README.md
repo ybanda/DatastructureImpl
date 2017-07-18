@@ -16,10 +16,10 @@ This project contains the implementations for Collections & Sorting like
 - [x] Java Basics
 - [x] Java Data types
 - [x] Methods and Encapsulation
-- [ ] Classes from Java API 
-- [ ] Arrays
-- [ ] Flow Control
-- [ ] Inheritance
+- [x] Classes from Java API 
+- [x] Arrays
+- [x] Flow Control
+- [x] Inheritance
 - [ ] Exception Handling
 - [ ]
 
